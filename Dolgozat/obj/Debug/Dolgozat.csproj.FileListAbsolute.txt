@@ -1,0 +1,17 @@
+C:\Users\Diák\source\repos\Dolgozat\Dolgozat\bin\Debug\Dolgozat.exe.config
+C:\Users\Diák\source\repos\Dolgozat\Dolgozat\bin\Debug\Dolgozat.exe
+C:\Users\Diák\source\repos\Dolgozat\Dolgozat\bin\Debug\Dolgozat.pdb
+C:\Users\Diák\source\repos\Dolgozat\Dolgozat\obj\Debug\Dolgozat.csproj.AssemblyReference.cache
+C:\Users\Diák\source\repos\Dolgozat\Dolgozat\obj\Debug\MainWindow.g.cs
+C:\Users\Diák\source\repos\Dolgozat\Dolgozat\obj\Debug\App.g.cs
+C:\Users\Diák\source\repos\Dolgozat\Dolgozat\obj\Debug\Dolgozat_MarkupCompile.cache
+C:\Users\Diák\source\repos\Dolgozat\Dolgozat\obj\Debug\Dolgozat_MarkupCompile.lref
+C:\Users\Diák\source\repos\Dolgozat\Dolgozat\obj\Debug\MainWindow.baml
+C:\Users\Diák\source\repos\Dolgozat\Dolgozat\obj\Debug\Dolgozat.g.resources
+C:\Users\Diák\source\repos\Dolgozat\Dolgozat\obj\Debug\Dolgozat.Properties.Resources.resources
+C:\Users\Diák\source\repos\Dolgozat\Dolgozat\obj\Debug\Dolgozat.csproj.GenerateResource.cache
+C:\Users\Diák\source\repos\Dolgozat\Dolgozat\obj\Debug\Dolgozat.csproj.CoreCompileInputs.cache
+C:\Users\Diák\source\repos\Dolgozat\Dolgozat\obj\Debug\Dolgozat.exe
+C:\Users\Diák\source\repos\Dolgozat\Dolgozat\obj\Debug\Dolgozat.pdb
+C:\Users\Diák\source\repos\Dolgozat\Dolgozat\obj\Debug\Edit.g.cs
+C:\Users\Diák\source\repos\Dolgozat\Dolgozat\obj\Debug\Edit.baml

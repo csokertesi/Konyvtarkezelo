@@ -1,0 +1,38 @@
+﻿<Window x:Class="Dolgozat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dolgozat"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="642">
+	<Grid>
+		<TextBox x:Name="konyvcim" HorizontalAlignment="Left" Margin="82,7,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="299" Height="21"/>
+		<Label Content="Könyv címe:" HorizontalAlignment="Left" Margin="5,4,0,0" VerticalAlignment="Top" Height="32"/>
+		<ComboBox x:Name="konyvmufaj" HorizontalAlignment="Left" Margin="390,8,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged" Height="20">
+			<ComboBoxItem Content="Regény"/>
+			<ComboBoxItem Content="Tudományos"/>
+			<ComboBoxItem Content="Fikció"/>
+			<ComboBoxItem Content="Sci-Fi"/>
+			<ComboBoxItem Content="Romantika"/>
+			<ComboBoxItem Content="Életrajz"/>
+			<ComboBoxItem Content="Kézikönyv"/>
+		</ComboBox>
+		<Button Content="Hozzáadás" HorizontalAlignment="Left" Margin="523,8,0,0" VerticalAlignment="Top" Height="20" Width="100" Click="Add_Click"/>
+		<ListBox x:Name="konyvek" Margin="3,35,0,146" SelectionChanged="ListBox_SelectionChanged" SelectionMode="Single" HorizontalAlignment="Left" Width="620" />
+		<Label Content="Szűrés:" HorizontalAlignment="Left" Margin="6,290,0,0" VerticalAlignment="Top"/>
+		<ComboBox x:Name="szuro" HorizontalAlignment="Left" Margin="55,295,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged_1">
+			<ComboBoxItem Content="Regény"/>
+			<ComboBoxItem Content="Tudományos"/>
+			<ComboBoxItem Content="Fikció"/>
+			<ComboBoxItem Content="Sci-Fi"/>
+			<ComboBoxItem Content="Romantika"/>
+			<ComboBoxItem Content="Életrajz"/>
+			<ComboBoxItem Content="Kézikönyv"/>
+			<ComboBoxItem Content="Minden"/>
+		</ComboBox>
+		<Button Content="Összes megjelenítése" HorizontalAlignment="Left" Margin="3,326,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+		<CheckBox x:Name="editmode" Content="Szerkesztés mód" HorizontalAlignment="Left" Margin="188,298,0,0" VerticalAlignment="Top"/>
+
+	</Grid>
+</Window>
